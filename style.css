@@ -1,0 +1,38 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #f0f8ff;
+}
+
+#About {
+  background-color: white;
+}
+
+#Project {
+  padding-top: 2rem;
+  background-color: #f0f8ff;
+}
+
+#Contact {
+  padding-top: 2rem;
+  background-color: white;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+table th,
+table td {
+  text-align: left;
+  vertical-align: top;
+}
+
+.form-label {
+  text-align: left;
+  display: block;
+}
+
+.form-control {
+  text-align: left;
+  vertical-align: top;
+}
