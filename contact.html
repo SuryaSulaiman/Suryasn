@@ -46,7 +46,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+
     <!-- Navigation-->
     <nav
       class="navbar navbar-expand-lg navbar-light"
@@ -107,92 +107,53 @@
         </div>
       </div>
     </nav>
+    <body>
     <!-- Page Header-->
     <header
       class="masthead"
-      style="background-image: url('assets/img/Home4.jpg')"
+      style="background-image: url('assets/img/Contact2.jpg')"
     >
       <div class="container position-relative px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-md-10 col-lg-8 col-xl-7">
-            <div class="site-heading">
-              <h1>Introduction</h1>
-              <span class="subheading">Surya Sulaiman Nurdanta | Informatics and Computer Engineering Education</span>
-              <span class="meta">
-                <a href="#!">Universitas Negeri Semarang</a>
+            <div class="page-heading">
+              <h1>Contact Me</h1>
+              <span class="subheading">Give Me Letter and Impression below.</span>
             </div>
           </div>
         </div>
       </div>
     </header>
     <!-- Main Content-->
-    <div class="container px-4 px-lg-5">
-      <div class="row gx-4 gx-lg-5 justify-content-center">
-        <div class="col-md-10 col-lg-8 col-xl-7">
-          <!-- Post preview-->
-          <div class="post-preview">
-            <a href="projects.html">
-              <div class="clearfix">
-                <img src="assets/img/Porsaklas.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="porsaklas">
-                <p>
-                  Pada Kepanitiaan Porsaklas saya menjadi sie acara, saya merangkai rangkaian acara pertandingan pada setiap cabang olahraga. Ini awalan saya terbentuk untuk mengikuti kepanitiaan di dalam lingkungan kampus saya.
-                </p>
-              </div>
-          </div>
-          <!-- Divider-->
-          <hr class="my-4" />
-          <!-- Post preview-->
-          <div class="post-preview">
-            <a href="projects.html">
-              <div class="clearfix">
-              <img src="assets/img/Electricalcup.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="electrical cup">
-              <p>
-                Berpengalaman menjadi Ketua Acara "Electrical Cup" bekerja membangun solidaritas keolahragaan untuk 4 angkatan Teknik Elektro Universitas Negeri Semarang. Berkontribusi langsung pada setiap jalannya acara.
-              </p>
+    <main class="mb-4">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama Lengkap</label>
+              <input type="email" class="form-control" id="name" aria-describedby="name">
             </div>
-          </div>
-          <!-- Divider-->
-          <hr class="my-4" />
-          <!-- Post preview-->
-          <div class="post-preview">
-            <a href="projects.html">
-              <div class="clearfix">
-              <img src="assets/img/Webinarskripsi.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="webinar skripsi">
-              <p>
-                Dari webinar skripsi ini kita mengetahui prosedur dan langkah-langkah apa yang akan kita lakukan untuk membuat skripsi.
-              </p>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="Email">
             </div>
-          </div>
-          <!-- Divider-->
-          <hr class="my-4" />
-          <!-- Post preview-->
-          <div class="post-preview">
-            <a href="projects.html">
-              <div class="clearfix">
-                <img src="assets/img/Electricalexfo.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="electrical exfo">
-                <p>
-                  Electrical Expo kita mengenalkan kepada mahasiswa baru 2024, prestasi dari seluruh mahasiswa Teknik Elektro dari alat-alat project mahasiswanya dan sebagainya. 
-                </p>
-              </div>
-          </div>
-          <!-- Divider-->
-          <hr class="my-4" />
-          <!-- Post preview-->
-          <div class="post-preview">
-            <a href="projects.html">
-              <div class="clearfix">
-                <img src="assets/img/Kuliahumum.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="kuliah umum">
-                <p>
-                  Saya orang yang suka tantangan dan multitasking. Berkuliah di jurusan Pendidikan Teknik Informatika dan Komputer menjadikan saya sosok yang teliti, cermat, dan selalu memperhatikan data-data pemrograman saya. Rasa suka saya melakukan hal-hal diluar kegiatan kuliah membuat saya harus terus belajar management waktu.
-                </p>
-              </div>
-          </div>
-          <!-- Divider-->
-          <hr class="my-4" />
-          </div>
+            <div class="mb-3">
+              <label for="no telepon" class="form-label">No Telepon</label>
+              <input type="no telepon" class="form-control" id="no telepon" aria-describedby="No Telepon">
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">pesan</label>
+              <textarea class="form-control" id="pesan" rows="3"></textarea>
+            </div>
+            <button type="kirim" class="btn btn-primary">Kirim</button>
+          </form>
+          <br>
         </div>
       </div>
-    <!-- Footer-->
+    </div>
+    <script>
+
+    <!--Footer-->
     <footer class="bg-primary text-white text-center pb-5">
       <p>
         Created with by
@@ -203,16 +164,17 @@
         ></a>
       </p>
       <br />
-      <button
-        onclick="window.print()"
-        class="btn btn-light mt-3"
-      >
-        Cetak halaman ini
-      </button>
+      <button onclick="window.print()" class="btn btn-light mt-3">Cetak halaman ini</button>
     </footer>
-    <!-- Bootstrap core JS-->
+
+    <!-- Bootstrap core JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
   </body>
 </html>
